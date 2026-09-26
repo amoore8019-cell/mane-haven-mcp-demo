@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-const catalog = JSON.parse(readFileSync(new URL('../catalog.json', import.meta.url), 'utf8'));
+const catalog = JSON.parse(readFileSync(new URL('./catalog.json', import.meta.url), 'utf8'));
 export const getCatalog = () => catalog;
 export function recommend({goal='', currentColor='', desiredColor='', priorColor='', hairCondition='', isExistingClient=false, extensionMethod='', extensionRows=0}={}) {
   const q = [goal,currentColor,desiredColor,priorColor,hairCondition].join(' ').toLowerCase();
