@@ -17,7 +17,11 @@ return server;
 }
 const port=Number(process.env.PORT||3000);
 const httpServer=http.createServer(async(req,res)=>{
- if(req.url==='/health'){res.writeHead(200,{'content-type':'application/json'});res.end(JSON.stringify({ok:true}));return;}
+ if(req.url==='/.well-known/openai-apps-challenge'){
+  res.writeHead(200,{'content-type':'text/plain; charset=utf-8'});
+  res.end(process.env.OPENAI_APPS_CHALLENGE || '');
+  return;
+}if(req.url==='/health'){res.writeHead(200,{'content-type':'application/json'});res.end(JSON.stringify({ok:true}));return;}
  if(req.url!=='/mcp'){res.writeHead(404);res.end('Not found');return;}
  const server=createMcpServer();
  const transport=new StreamableHTTPServerTransport({sessionIdGenerator:undefined});
