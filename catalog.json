@@ -1,0 +1,240 @@
+{
+  "salon": "Mane Haven Salon",
+  "location": "Ankeny, Iowa",
+  "menu_checked": "2026-09-25",
+  "booking_url": "https://addisonmoore.glossgenius.com/book",
+  "pricing_notice": "Published prices and reserved durations from Mane Haven Salon public booking menu. A + means starting price. Final total may change with product or scope; verify in booking flow.",
+  "policy": {
+    "hours": {
+      "Monday": "9 AM\u20135 PM",
+      "Tuesday": "9 AM\u20137 PM",
+      "Wednesday": "9 AM\u20137 PM",
+      "Thursday": "Closed",
+      "Friday": "9 AM\u20132 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "address": "1615 SW Main St. Suite 104a, Ankeny, IA 50023",
+    "parking": null,
+    "stylist_contact": "https://addisonmoore.glossgenius.com/contact",
+    "cancellation": "At least 24 hours notice requested for cancellation or rescheduling. Cancellation within 24 hours carries a 50% fee for the booked service, payable before future bookings.",
+    "preparation": "For color, be ready to describe prior dyes, bleach, treatments, and desired result; bring inspiration photos if helpful.",
+    "source": "https://addisonmoore.glossgenius.com/about"
+  },
+  "services": [
+    {
+      "id": "full-foil",
+      "name": "Full Foil",
+      "starting_price_usd": 220,
+      "price_is_starting": true,
+      "duration_minutes": 240,
+      "best_for": "Full blonde refresh, major change, new color client, or very thick hair",
+      "includes": "Color appointment has time for haircut; 2 bowls of color and toner",
+      "notes": "Additional color bowls $15 each; hair condition and prior color may require consultation.",
+      "illustrative_rebooking_window_weeks": [
+        8,
+        12
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "maintenance-foil",
+      "name": "Maintenance Foil",
+      "starting_price_usd": 185,
+      "price_is_starting": true,
+      "duration_minutes": 150,
+      "best_for": "Existing color client refreshing highlights or lived-in color and dimension",
+      "includes": "Time for haircut; 1 bowl of color and toner",
+      "notes": "Stylist decides half-head versus partial foil during appointment; additional color bowls $15 each.",
+      "illustrative_rebooking_window_weeks": [
+        8,
+        12
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "face-frame-foil",
+      "name": "Face Frame Foil",
+      "starting_price_usd": 85,
+      "price_is_starting": true,
+      "duration_minutes": 90,
+      "best_for": "Small pop of brightness around the face, up to 10 foils",
+      "includes": "Time for haircut; 1 bowl of color and toner",
+      "notes": "Additional color bowls $15 each.",
+      "illustrative_rebooking_window_weeks": [
+        8,
+        12
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "sparkle-coverage",
+      "name": "Sparkle Coverage",
+      "starting_price_usd": 110,
+      "price_is_starting": true,
+      "duration_minutes": 90,
+      "best_for": "Gray coverage",
+      "includes": "1 bowl of color and toner to refresh ends",
+      "notes": "Not a blonding appointment.",
+      "illustrative_rebooking_window_weeks": [
+        4,
+        8
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "all-over-color",
+      "name": "All Over Color",
+      "starting_price_usd": 165,
+      "price_is_starting": true,
+      "duration_minutes": 150,
+      "best_for": "One solid color throughout",
+      "includes": "2 bowls of color",
+      "notes": "Not a blonding service; additional bowls $15 each.",
+      "illustrative_rebooking_window_weeks": [
+        6,
+        10
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "haircut",
+      "name": "Haircut",
+      "starting_price_usd": 50,
+      "price_is_starting": false,
+      "duration_minutes": 45,
+      "best_for": "Haircut at or below chin length",
+      "includes": "Wash and style",
+      "notes": "Salon does not accept above-chin cuts, kids cuts, clipper cuts, or barbering.",
+      "illustrative_rebooking_window_weeks": [
+        6,
+        10
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "gloss-treatment",
+      "name": "Gloss Treatment",
+      "starting_price_usd": 65,
+      "price_is_starting": false,
+      "duration_minutes": 45,
+      "best_for": "Tone, darken, or add shine between larger color appointments",
+      "includes": "",
+      "notes": "Does not replace a lightening service.",
+      "illustrative_rebooking_window_weeks": [
+        6,
+        10
+      ],
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "blow-out",
+      "name": "Blow Out",
+      "starting_price_usd": 50,
+      "price_is_starting": false,
+      "duration_minutes": 45,
+      "best_for": "Wash and style for an occasion or routine visit",
+      "includes": "Wash and chosen style, such as blowout or curls",
+      "notes": "",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "blow-out-with-extensions",
+      "name": "Blow Out With Extensions",
+      "starting_price_usd": 75,
+      "price_is_starting": false,
+      "duration_minutes": 60,
+      "best_for": "Wash and style when wearing extensions",
+      "includes": "Wash and chosen style",
+      "notes": "",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "extension-consultation",
+      "name": "Extension Consultation",
+      "starting_price_usd": 0,
+      "price_is_starting": false,
+      "duration_minutes": 15,
+      "best_for": "Discussing new extensions",
+      "includes": "",
+      "notes": "Published listing has no detailed description.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "color-consultation",
+      "name": "Color Consultation",
+      "starting_price_usd": 0,
+      "price_is_starting": false,
+      "duration_minutes": 15,
+      "best_for": "Discussing a complex color goal or uncertain color history",
+      "includes": "",
+      "notes": "The live listing is titled Color Consultation, but its description refers to extensions; confirm intended scope with Addison before relying on that description.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "traditional-move-up-one",
+      "name": "Traditional Extension Move Up 1 Row",
+      "starting_price_usd": 110,
+      "price_is_starting": false,
+      "duration_minutes": 60,
+      "best_for": "Maintenance of one existing traditional extension row",
+      "includes": "",
+      "notes": "For existing extension clients; confirm method with stylist.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "traditional-move-up-two",
+      "name": "Traditional Extension Move Up 2 Row",
+      "starting_price_usd": 220,
+      "price_is_starting": false,
+      "duration_minutes": 120,
+      "best_for": "Maintenance of two existing traditional extension rows",
+      "includes": "",
+      "notes": "For existing extension clients; confirm method with stylist.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "hidden-bead-one",
+      "name": "Hidden Bead Move Up 1 Row",
+      "starting_price_usd": 250,
+      "price_is_starting": false,
+      "duration_minutes": 90,
+      "best_for": "Maintenance of one hidden-bead extension row",
+      "includes": "",
+      "notes": "For existing extension clients; confirm method with stylist.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "hidden-bead-two",
+      "name": "Hidden Bead Move Up 2 Row",
+      "starting_price_usd": 500,
+      "price_is_starting": false,
+      "duration_minutes": 150,
+      "best_for": "Maintenance of two hidden-bead extension rows",
+      "includes": "",
+      "notes": "For existing extension clients; confirm method with stylist.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    },
+    {
+      "id": "extension-fix",
+      "name": "Extension Fix",
+      "starting_price_usd": 0,
+      "price_is_starting": false,
+      "duration_minutes": 10,
+      "best_for": "Checking an existing extension issue",
+      "includes": "",
+      "notes": "Published price is $0; confirm eligibility and charges directly with salon.",
+      "illustrative_rebooking_window_weeks": null,
+      "source": "https://addisonmoore.glossgenius.com/book"
+    }
+  ],
+  "rebooking_notice": "All rebooking intervals are illustrative prototype rules, not Mane Haven policies. Ask the stylist for a personal schedule; no automatic messages are sent."
+}
